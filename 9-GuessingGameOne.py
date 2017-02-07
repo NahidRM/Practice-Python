@@ -1,8 +1,7 @@
 import random
 again = True
 guesses = 0
-x = random.randint(
-    1,9)
+x = random.randint(1,9)
 while(again !='exit'):
     user = int(input("Enter your guess: "))
     higher ="Too high"
