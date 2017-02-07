@@ -14,9 +14,7 @@ while(again !='exit'):
         print(correct)
         break
     again = input("Type exit if you wish to end, if not press enter: ")
-
 if x==user:
     print("It took you "+str(guesses)+" guesses to get it right")
 elif again=='exit':
     print("You quit after "+str(guesses)+ " attempts")
-
